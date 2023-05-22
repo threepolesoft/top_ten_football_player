@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.top_ten_football_player" android:installLocation="auto">
+	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="31" />
+	<application android:label="Top 10 Footballer" android:theme="@style/MainTheme">
+
+		<meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/publisherId"/>
+
+		<meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true"/>
+		
+	</application>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+</manifest>
